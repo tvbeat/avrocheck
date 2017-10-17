@@ -19,4 +19,10 @@ struct avro_events_q {
   static constexpr const char* schema = "ods_ams_q_tvbeat.avsc";
 };
 
+#include "bss_epg.avro.h"
+struct bss_epg_sched {
+  using type                          = sky::ods_bss_epg_sched;
+  static constexpr const char* schema = "oss_bss_epg_sched_tvbeat.avsc";
+};
+
 #endif // AVROCHECK_SCHEMAS_H_

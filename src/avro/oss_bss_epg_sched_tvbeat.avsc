@@ -1,0 +1,332 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_bss_epg_sched",
+    "fields": [
+        {
+            "name": "Rectype",
+            "type": "string"
+        },
+        {
+            "name": "Siservicekey",
+            "type": "string"
+        },
+        {
+            "name": "Channelname",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Txdate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Txtime",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Traffickey",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Epgtitle",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sieventchainkey",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Duration",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Synopsis",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Genredescription",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Subgenredescription",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Parentalratingdescription",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Language",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Epgsort",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Marketingmessage",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Soundtypedescription",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Widescreenflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Truehdflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Subtitleflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Closedcaptionflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Newshowflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Linkflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Smsgrading",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Videopluscode",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Sidetailkey",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sieventid",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Caparratingid",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Audiodescribedflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Parentofchildlistkey",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Childinchildlistkey",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Linkflagchartodisplay",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Episodenumber",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Episodeinseries",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Seriesid",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sspnetworkid",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Transportid",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Serviceid",
+            "type": "string"
+        },
+        {
+            "name": "Providercode",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Visiblefromdate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Visiblefromtime",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Visibletodate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Expirydate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Hdflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sdflag",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Origfilename",
+            "type": "string"
+        },
+        {
+            "name": "Processdate",
+            "type": "long"
+        },
+        {
+            "name": "Recposition",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}
