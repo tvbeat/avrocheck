@@ -1,0 +1,158 @@
+{
+  "type" : "record",
+  "name" : "ods_ams_plus",
+  "namespace" : "nods",
+  "fields" : [ {
+    "name" : "Panelid",
+    "type" : "string"
+  }, {
+    "name" : "Documentcreationdate",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Documentversion",
+    "type" : "string"
+  }, {
+    "name" : "Tvid",
+    "type" : "string"
+  }, {
+    "name" : "Stblogcreationdate",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Subscriberid",
+    "type" : "string"
+  }, {
+    "name" : "Privatedata",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Evstandbyin_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evstandbyout_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evpowerup_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evsurf_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evtracksurf_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evidle_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evchangeview_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evtuneractivity_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evadsmart_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evadsmartnosubstitution_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evvodplayback_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Evemptylog_Et",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Campaignid",
+    "type" : "string"
+  }, {
+    "name" : "Vodassetid",
+    "type" : "long"
+  }, {
+    "name" : "Contentinstanceid",
+    "type" : "string"
+  }, {
+    "name" : "Availid",
+    "type" : "string"
+  }, {
+    "name" : "Startoffset",
+    "type" : "string"
+  }, {
+    "name" : "Reason",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Originalnetworkid",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Transportstreamid",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Siserviceid",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Servicekey",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Videoplaying",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Videotracktag",
+    "type" : "string"
+  }, {
+    "name" : "Audiotracktag",
+    "type" : "string"
+  }, {
+    "name" : "Datatracktag",
+    "type" : "string"
+  }, {
+    "name" : "Producerid",
+    "type" : "string"
+  }, {
+    "name" : "Applicationid",
+    "type" : "string"
+  }, {
+    "name" : "Tunerid",
+    "type" : "string"
+  }, {
+    "name" : "Recordedtime",
+    "type" : [ "null", "long" ],
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Playbackspeed",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "Source_File_Name",
+    "type" : "string"
+  }, {
+    "name" : "Create_Date",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Fragment_Counter",
+    "type" : "string"
+  }, {
+    "name" : "Event_In_Fragment_Counter",
+    "type" : "string"
+  }, {
+    "name" : "Source_Record_Counter",
+    "type" : "long"
+  }, {
+    "name" : "Source_File_Id",
+    "type" : "string"
+  }, {
+    "name" : "Batch",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  } ]
+}

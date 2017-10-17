@@ -1,0 +1,114 @@
+{
+  "type" : "record",
+  "name" : "disref_cust_card_sum_hist",
+  "namespace" : "nods",
+  "fields" : [ {
+    "name" : "Customer_Card_Valid_Date",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Customer_Account_Id",
+    "type" : "string"
+  }, {
+    "name" : "Account_Number",
+    "type" : "string"
+  }, {
+    "name" : "Scms_Subscriber_Id",
+    "type" : "string"
+  }, {
+    "name" : "Dth_Viewing_Card_No",
+    "type" : "string"
+  }, {
+    "name" : "Callback_Day",
+    "type" : "string"
+  }, {
+    "name" : "Nds_Number",
+    "type" : "string"
+  }, {
+    "name" : "Subscription_Status",
+    "type" : "string"
+  }, {
+    "name" : "Subscription_Type",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Description",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Manufacturer",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Model",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Model_Description",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Model_Number",
+    "type" : "string"
+  }, {
+    "name" : "Stb_Pvr_Designation",
+    "type" : "string"
+  }, {
+    "name" : "Sky_Plus_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Hd_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Pdl_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Adsmart_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Freesat_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Espn_Capable",
+    "type" : "string"
+  }, {
+    "name" : "Adsmart_Enabled",
+    "type" : "string"
+  }, {
+    "name" : "Call_Back_Date_Time",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Personalisation",
+    "type" : "string"
+  }, {
+    "name" : "Adsmart_Capable_Linear",
+    "type" : "string"
+  }, {
+    "name" : "Adsmart_Capable_Vod",
+    "type" : "string"
+  }, {
+    "name" : "Card_Device_Id",
+    "type" : "long"
+  }, {
+    "name" : "Device_Id",
+    "type" : "string"
+  }, {
+    "name" : "Start_Date",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "End_Date",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Load_Timestamp",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  }, {
+    "name" : "Scms_Subscriber_Id_Base64",
+    "type" : "string"
+  }, {
+    "name" : "Nk_Customer_Hash",
+    "type" : "long"
+  }, {
+    "name" : "Batch",
+    "type" : "long",
+    "logicalType" : "timestamp-micros"
+  } ]
+}
