@@ -21,12 +21,14 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 avro_generate_class("avro/disref_cust_card_sum_hist_tvbeat.avsc" "subs.avro.h"      sky SubsAvroHeader)
 avro_generate_class("avro/ods_ams_q_tvbeat.avsc"                 "evts_q.avro.h"    sky EvtsAvroHeaderQ)
 avro_generate_class("avro/ods_ams_plus_tvbeat.avsc"              "evts_plus.avro.h" sky EvtsAvroHeaderPlus)
+avro_generate_class("avro/oss_bss_epg_sched_tvbeat.avsc"         "bss_epg.avro.h"   sky EpgSchedAvroHeader)
 
 #
 add_executable(avrocheck
   ${SubsAvroHeader}
   ${EvtsAvroHeaderQ}
   ${EvtsAvroHeaderPlus}
+  ${EpgSchedAvroHeader}
   main.cc
   stats.cc)
 
