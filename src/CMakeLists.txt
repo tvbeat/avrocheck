@@ -33,12 +33,10 @@ avro_generate_class("avro/ods_ams_plus_tvbeat.avsc"              "evts_plus.avro
 avro_generate_class("avro/oss_bss_epg_sched_tvbeat.avsc"         "bss_epg.avro.h"             sky EpgSchedAvroHeader)
 avro_generate_class("avro/nds_programme_key_tvbeat.avsc"         "nds_programme_key.avro.h"   sky NdsPgmKeyAvroHeader)
 avro_generate_class("avro/bss_hint_sched_tvbeat.avsc"            "bss_hint_sched.avro.h"      sky BssHintSchedAvroHeader)
-#avro_generate_class("avro/olive_sport_meta_tvbeat.avsc"          "olive_sport_meta.avro.h"    sky OliveMediaAvroHeader)
 avro_generate_class("avro/service_key_attr_descr_tvbeat.avsc"    "srv_key_attr_descr.avro.h"  sky SrvKeyAttrDescAvroHeader)
 avro_generate_class("avro/service_key_attr_ods_tvbeat.avsc"      "srv_key_attr_ods.avro.h"    sky SrvKeyAttrOdsAvroHeader)
 avro_generate_class("avro/service_key_code_map_tvbeat.avsc"      "srv_key_code_map.avro.h"    sky SrvKeyCodeMapAvroHeader)
 avro_generate_class("avro/trp_sport_meta_tvbeat.avsc"            "trp_sport_meta.avro.h"      sky TrpSportAvroHeader)
-#avro_generate_class("avro/vod_asset_tvbeat.avsc"                 "vod_asset.avro.h"           sky VodAssetAvroHeader)
 
 #
 add_executable(avrocheck
@@ -48,12 +46,10 @@ add_executable(avrocheck
   ${EpgSchedAvroHeader}
   ${NdsPgmKeyAvroHeader}
   ${BssHintSchedAvroHeader}
-#  ${OliveMediaAvroHeader}
   ${SrvKeyAttrDescAvroHeader}
   ${SrvKeyAttrOdsAvroHeader}
   ${SrvKeyCodeMapAvroHeader}
   ${TrpSportAvroHeader}
-#  ${VodAssetAvroHeader}
   main.cc
   stats.cc)
 
