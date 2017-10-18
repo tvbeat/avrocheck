@@ -7,8 +7,17 @@ set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_CXX_FLAGS "-fPIC -Wall --std=c++17")
 set(CMAKE_CXX_FLAGS_RELEASE "-O4 -DNDEBUG")
 
+set(STATIC_LINKING FALSE CACHE BOOL "Build a static binary?")
+
+if(STATIC_LINKING)
+  set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+  set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ -static")
+  find_package (ZLIB REQUIRED)
+  set(Boost_USE_STATIC_LIBS ON)
+endif(STATIC_LINKING)
+
 # boost
-find_package(Boost COMPONENTS program_options REQUIRED)
+find_package(Boost COMPONENTS program_options iostreams REQUIRED)
 include_directories(${Boost_INCLUDE_DIR})
 
 # avro
@@ -34,7 +43,9 @@ add_executable(avrocheck
 
 target_link_libraries(avrocheck
   stdc++fs
-  ${AVRO_LIBRARIES})
+  ${AVRO_LIBRARIES}
+  ${Boost_LIBRARIES}
+  ${ZLIB_LIBRARIES})
 
 #
 include(GNUInstallDirs)

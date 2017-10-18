@@ -5,7 +5,6 @@ BUILD_DIR=bld
 TEST_DIR=bin
 PREFIX=out
 INSTALL_PREFIX=$(abspath $(PREFIX))
-DEPLOY_PREFIX=$(INSTALL_PREFIX)
 STATIC=0
 TARGET=$(DEBUG)
 
@@ -29,8 +28,7 @@ $(RELEASE):
                       -DCMAKE_INSTALL_PREFIX=$(INSTALL_PREFIX)\
                       -DCMAKE_BUILD_TYPE=$(RELEASE) ../../src\
                       -DSTATIC_LINKING=$(STATIC)\
-                      -DCMAKE_EXPORT_COMPILE_COMMANDS=1\
-                      -DDEPLOY_PREFIX=$(DEPLOY_PREFIX)"
+                      -DCMAKE_EXPORT_COMPILE_COMMANDS=1"
 
 build: $(TARGET)
 	@sh -c "cd $(BUILD_DIR)/$(TARGET) && make -j$(CORES)"
