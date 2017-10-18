@@ -1,0 +1,72 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_nds_progkey",
+    "fields": [
+        {
+            "name": "Utcoffset",
+            "type": "string"
+        },
+        {
+            "name": "Transactionidentifier",
+            "type": "string"
+        },
+        {
+            "name": "Providerid",
+            "type": "string"
+        },
+        {
+            "name": "Assetid",
+            "type": "string"
+        },
+        {
+            "name": "Programkey",
+            "type": "string"
+        },
+        {
+            "name": "Programid",
+            "type": "string"
+        },
+        {
+            "name": "Pushedprogramid",
+            "type": "string"
+        },
+        {
+            "name": "Source_Record_Counter",
+            "type": "long"
+        },
+        {
+            "name": "Source_File_Id",
+            "type": "string"
+        },
+        {
+            "name": "Source_File_Name",
+            "type": "string"
+        },
+        {
+            "name": "Create_Date",
+            "type": "long"
+        },
+        {
+            "name": "Hex_Key",
+            "type": "string"
+        },
+        {
+            "name": "Transitional_Key",
+            "type": "string"
+        },
+        {
+            "name": "Load_Batch",
+            "type": "string"
+        },
+        {
+            "name": "Start_Date",
+            "type": "long"
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}
+

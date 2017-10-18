@@ -1,0 +1,50 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_skyiq_servkey_attr_desc",
+    "fields": [
+        {
+            "name": "Record_Type",
+            "type": "string"
+        },
+        {
+            "name": "Attribute_Field",
+            "type": "string"
+        },
+        {
+            "name": "Attribute_System_Name",
+            "type": "string"
+        },
+        {
+            "name": "Attribute_Friendly_Name",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Version_Number",
+            "type": "string"
+        },
+        {
+            "name": "Record_Count",
+            "type": "string"
+        },
+        {
+            "name": "Source_Filename_Id",
+            "type": "long"
+        },
+        {
+            "name": "Source_Filename",
+            "type": "string"
+        },
+        {
+            "name": "Create_Date",
+            "type": "long"
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}

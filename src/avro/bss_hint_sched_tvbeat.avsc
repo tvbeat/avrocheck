@@ -1,0 +1,90 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_bss_hintsched",
+    "fields": [
+        {
+            "name": "Tx_Id",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Network_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Transport_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Service_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Spot_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Campaign_Hint_Code",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Campaign_Copy",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Slot_Duration",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Hint_Code_Priority",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Total_Hint_Codes_In_Slot",
+            "type": "string"
+        },
+        {
+            "name": "File_Id",
+            "type": "string"
+        },
+        {
+            "name": "File_Name",
+            "type": "string"
+        },
+        {
+            "name": "Create_Date",
+            "type": "long"
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}

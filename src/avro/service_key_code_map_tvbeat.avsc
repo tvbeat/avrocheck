@@ -1,0 +1,83 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_skyiq_servkey_codemap",
+    "fields": [
+        {
+            "name": "Record_Type",
+            "type": "string"
+        },
+        {
+            "name": "Service_Key",
+            "type": "string"
+        },
+        {
+            "name": "Type",
+            "type": "string"
+        },
+        {
+            "name": "Code_1",
+            "type": "string"
+        },
+        {
+            "name": "Code_2",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Code_3",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Code_4",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Effective_From",
+            "type": "long"
+        },
+        {
+            "name": "Effective_To",
+            "type": "long"
+        },
+        {
+            "name": "Code_Mapping_Version",
+            "type": "string"
+        },
+        {
+            "name": "Dummy_Barb_Code",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Record_Count",
+            "type": "string"
+        },
+        {
+            "name": "Source_Filename_Id",
+            "type": "string"
+        },
+        {
+            "name": "Source_Filename",
+            "type": "string"
+        },
+        {
+            "name": "Create_Date",
+            "type": "long"
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}

@@ -1,0 +1,727 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "ods_skyiq_servkey_attr",
+    "fields": [
+        {
+            "name": "Record_Type",
+            "type": "string"
+        },
+        {
+            "name": "Service_Key",
+            "type": "string"
+        },
+        {
+            "name": "Provider_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Effective_From",
+            "type": "long"
+        },
+        {
+            "name": "Effective_To",
+            "type": "long"
+        },
+        {
+            "name": "Service_Attribute_Version",
+            "type": "string"
+        },
+        {
+            "name": "Character_01",
+            "type": "string"
+        },
+        {
+            "name": "Character_02",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_03",
+            "type": "string"
+        },
+        {
+            "name": "Character_04",
+            "type": "string"
+        },
+        {
+            "name": "Character_05",
+            "type": "string"
+        },
+        {
+            "name": "Character_06",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_07",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_08",
+            "type": "string"
+        },
+        {
+            "name": "Character_09",
+            "type": "string"
+        },
+        {
+            "name": "Character_10",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_11",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_12",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_13",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_14",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_15",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_16",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_17",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_18",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_19",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_20",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_21",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_22",
+            "type": "string"
+        },
+        {
+            "name": "Character_23",
+            "type": "string"
+        },
+        {
+            "name": "Character_24",
+            "type": "string"
+        },
+        {
+            "name": "Character_25",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_26",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_27",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_28",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_29",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_30",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_31",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_32",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_33",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_34",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_35",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_36",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_37",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_38",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_39",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_40",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_41",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_42",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_43",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_44",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_45",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_46",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_47",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_48",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_49",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_50",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_51",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_52",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_53",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_54",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_55",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_56",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_57",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_58",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_59",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_60",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_61",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_62",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_63",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_64",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_65",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_66",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_67",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_68",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_69",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_70",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_71",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_72",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_73",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_74",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_75",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_76",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_77",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_78",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_79",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_80",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_81",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_82",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_83",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_84",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_85",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_86",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_87",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_88",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_89",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_90",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_91",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_92",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_93",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_94",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_95",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_96",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_97",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_98",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_99",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Character_100",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Record_Count",
+            "type": "string"
+        },
+        {
+            "name": "Source_Filename_Id",
+            "type": "string"
+        },
+        {
+            "name": "Source_Filename",
+            "type": "string"
+        },
+        {
+            "name": "Create_Date",
+            "type": "long"
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}

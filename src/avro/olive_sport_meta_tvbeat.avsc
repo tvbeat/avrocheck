@@ -1,0 +1,144 @@
+{
+    "type": "record",
+    "namespace": "nods",
+    "name": "odbc_to_avro",
+    "fields": [
+        {
+            "name": "Record_Type",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Service_Key",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Broadcast_Start_Date_Time",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Broadcast_End_Date_Time",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Broadcaster",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sport",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Season",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Competition",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Rights",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Home_Team",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Away_Team",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Programme_Type",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Source_Record_Counter",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Source_File_Id",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Source_File_Name",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Create_Date",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Transitional_Key",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Load_Batch",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Start_Date",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Batch",
+            "type": "long"
+        }
+    ]
+}

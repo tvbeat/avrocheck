@@ -1,327 +1,335 @@
 {
     "type": "record",
     "namespace": "nods",
-    "name": "ods_bss_epg_sched",
+    "name": "csv_to_avro",
     "fields": [
         {
-            "name": "Rectype",
-            "type": "string"
+            "name": "Pk_Identifier",
+            "type": [
+                "null",
+                "double"
+            ]
         },
         {
-            "name": "Siservicekey",
-            "type": "string"
+            "name": "record_type",
+            "type": [
+                "null",
+                "double"
+            ]
         },
         {
-            "name": "Channelname",
+            "name": "sport",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Txdate",
+            "name": "sportsrightgenre",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Txtime",
+            "name": "sportsrightsubgenre",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Traffickey",
+            "name": "sportsright",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Epgtitle",
+            "name": "unique_channel_number",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Sieventchainkey",
+            "name": "unique_channel_name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Duration",
+            "name": "VESPA_channel_name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Synopsis",
+            "name": "TRP_broadcast_start_datetime_utc",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Genredescription",
+            "name": "TRP_event_ID",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "all_channel_number",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Subgenredescription",
+            "name": "all_channel_name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Parentalratingdescription",
+            "name": "season",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Language",
+            "name": "fixture",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Epgsort",
+            "name": "day_of_week",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Marketingmessage",
+            "name": "date_of_fixture",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Soundtypedescription",
+            "name": "barb_broadcast_start_time",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Widescreenflag",
+            "name": "barb_broadcast_end_time",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Truehdflag",
+            "name": "barb_event_start_time",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Subtitleflag",
+            "name": "barb_event_end_time",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Closedcaptionflag",
+            "name": "duration_minutes",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Newshowflag",
+            "name": "programme_viewers",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "programme_rating",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "programme_share",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "programme_peak",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "sporting_action_viewers",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "sporting_action_rating",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "sporting_action_share",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "sporting_action_peak",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "comments",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Linkflag",
+            "name": "synopsis",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Smsgrading",
+            "name": "bds_start_time",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Videopluscode",
+            "name": "bds_end_time",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "home_team",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "away_team",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "live_nonlive",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "fixture_date",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "bds_start_timet",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "bds_end_timet",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "dk_programme_instance_dim",
             "type": [
                 "null",
                 "long"
             ]
         },
         {
-            "name": "Sidetailkey",
+            "name": "vespa_genre",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Sieventid",
+            "name": "genre_description",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Caparratingid",
+            "name": "sub_genre_description",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Audiodescribedflag",
+            "name": "programme_name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Parentofchildlistkey",
+            "name": "service_key",
             "type": [
                 "null",
-                "string"
+                "long"
             ]
         },
         {
-            "name": "Childinchildlistkey",
+            "name": "programme_instance_duration",
             "type": [
                 "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Linkflagchartodisplay",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Episodenumber",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Episodeinseries",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Seriesid",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Sspnetworkid",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Transportid",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Serviceid",
-            "type": "string"
-        },
-        {
-            "name": "Providercode",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visiblefromdate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visiblefromtime",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visibletodate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Expirydate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Hdflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Sdflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Origfilename",
-            "type": "string"
-        },
-        {
-            "name": "Processdate",
-            "type": "long"
-        },
-        {
-            "name": "Recposition",
-            "type": [
-                "null",
-                "string"
+                "long"
             ]
         },
         {
@@ -330,4 +338,3 @@
         }
     ]
 }
-

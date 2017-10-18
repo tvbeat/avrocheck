@@ -1,60 +1,101 @@
 {
     "type": "record",
     "namespace": "nods",
-    "name": "ods_bss_epg_sched",
+    "name": "odbc_to_avro",
     "fields": [
         {
-            "name": "Rectype",
-            "type": "string"
-        },
-        {
-            "name": "Siservicekey",
-            "type": "string"
-        },
-        {
-            "name": "Channelname",
+            "name": "Providerid",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Txdate",
+            "name": "Assetid",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Txtime",
+            "name": "Provider_Brand",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Traffickey",
+            "name": "Asset_Name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Epgtitle",
+            "name": "License_Window_Start_Dt",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "License_Window_End_Dt",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Episode_Title",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Sieventchainkey",
+            "name": "Series_Info",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Duration",
+            "name": "Genre",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Genre_Desc",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Sub_Genre",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Sub_Genre_Desc",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "name": "Parental_Rating",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Parental_Rating_Desc",
             "type": [
                 "null",
                 "string"
@@ -68,260 +109,206 @@
             ]
         },
         {
-            "name": "Genredescription",
+            "name": "Marketing_Msg",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Subgenredescription",
+            "name": "Run_Time",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Audio_Type",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Parentalratingdescription",
+            "name": "Audio_Type_Desc",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Language",
+            "name": "Screen_Format",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Epgsort",
+            "name": "Screen_Format_Desc",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Marketingmessage",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Soundtypedescription",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Widescreenflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Truehdflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Subtitleflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Closedcaptionflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Newshowflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Linkflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Smsgrading",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Videopluscode",
+            "name": "Exhibition_Dt",
             "type": [
                 "null",
                 "long"
             ]
         },
         {
-            "name": "Sidetailkey",
+            "name": "Soundmouse",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Sieventid",
+            "name": "Movie_Url",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Caparratingid",
+            "name": "Trailer_Url",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Audiodescribedflag",
+            "name": "Thumbnail_Url",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Parentofchildlistkey",
+            "name": "Movie_Content_Size",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Trailer_Content_Size",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Thumbnail_Content_Size",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Movie_Bitrate",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Trailer_Bitrate",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Modified_Dt",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Deleted_Dt",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Studio_Code",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Childinchildlistkey",
+            "name": "Studio_Name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Linkflagchartodisplay",
+            "name": "Movie_Format",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Episodenumber",
+            "name": "Asset_Type",
+            "type": [
+                "null",
+                "double"
+            ]
+        },
+        {
+            "name": "Source_Record_Counter",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Source_File_Id",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Source_File_Name",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Episodeinseries",
+            "name": "Create_Date",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "name": "Transitional_Key",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Seriesid",
+            "name": "Load_Batch",
             "type": [
                 "null",
                 "string"
             ]
         },
         {
-            "name": "Sspnetworkid",
+            "name": "Start_Date",
             "type": [
                 "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Transportid",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Serviceid",
-            "type": "string"
-        },
-        {
-            "name": "Providercode",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visiblefromdate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visiblefromtime",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Visibletodate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Expirydate",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Hdflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Sdflag",
-            "type": [
-                "null",
-                "string"
-            ]
-        },
-        {
-            "name": "Origfilename",
-            "type": "string"
-        },
-        {
-            "name": "Processdate",
-            "type": "long"
-        },
-        {
-            "name": "Recposition",
-            "type": [
-                "null",
-                "string"
+                "long"
             ]
         },
         {
@@ -330,4 +317,3 @@
         }
     ]
 }
-
