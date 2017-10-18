@@ -1,7 +1,7 @@
 FROM alpine:3.6
 MAINTAINER Luka Blaskovic <lblasc@tvbeat.com>
 
-ENV AVROCPP_URL=http://ftp.carnet.hr/misc/apache/avro/avro-1.8.2/cpp/avro-cpp-1.8.2.tar.gz
+ENV AVROCPP_URL=https://archive.apache.org/dist/avro/stable/cpp/avro-cpp-1.8.2.tar.gz
 
 RUN set -x \
     && export CPU_COUNT=$(grep processor /proc/cpuinfo | wc -l) \
