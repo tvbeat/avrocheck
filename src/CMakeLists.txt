@@ -41,11 +41,21 @@ add_executable(avrocheck
   main.cc
   stats.cc)
 
-target_link_libraries(avrocheck
-  stdc++fs
-  ${AVRO_LIBRARIES}
-  ${Boost_LIBRARIES}
-  ${ZLIB_LIBRARIES})
+if(STATIC_LINKING)
+
+  target_link_libraries(avrocheck
+    stdc++fs
+    ${AVRO_LIBRARIES}
+    ${Boost_LIBRARIES}
+    ${ZLIB_LIBRARIES})
+
+else(STATIC_LINKING)
+
+  target_link_libraries(avrocheck
+    stdc++fs
+    ${AVRO_LIBRARIES})
+
+endif(STATIC_LINKING)
 
 #
 include(GNUInstallDirs)
