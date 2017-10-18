@@ -11,7 +11,7 @@
 
 static void usage() {
   puts("usage: \n"
-       "avrocheck sub_meta|plus_events|q_events|epg_sched|nds_pgm_key|hint_sched|sk_attr|sk_attr_desc|sk_codemap\n"
+       "avrocheck sub_meta|plus_events|q_events|epg_sched|nds_pgm_key|hint_sched|sk_attr|sk_attr_desc|sk_codemap|trp_sport\n"
        "avro file should be provided from standard input\n"
        "AE_SHARE should point to directory with avsc files (schema definitions)");
 }
@@ -49,6 +49,7 @@ int main(int argc, char **argv) {
   else if (type == "sk_attr"     ) { read_from_input_stream<service_key_attr>();      }
   else if (type == "sk_attr_desc") { read_from_input_stream<service_key_attr_desc>(); }
   else if (type == "sk_codemap"  ) { read_from_input_stream<service_key_codemap>();   }
+  else if (type == "trp_sport"   ) { read_from_input_stream<trp_sport_meta>();   }
   else                             { usage(); return -1; }
   return 0;
 

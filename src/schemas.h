@@ -64,14 +64,13 @@ struct  service_key_codemap{
   static constexpr const char* schema = "service_key_code_map_tvbeat.avsc";
 };
 
-/*
 //TRP_SPORTS_METADATA.avro
 #include "trp_sport_meta.avro.h"
-struct  {
+struct trp_sport_meta {
   using type                          = sky::csv_to_avro;
   static constexpr const char* schema = "trp_sport_meta_tvbeat.avsc";
 };
-
+/*
 ATOMIC_TANDBERG_VOD_ASSET_ODS_1485990000_1486076400.avro
 ---------- odbc_to_avro!!!
 #include "vod_asset.avro.h"
