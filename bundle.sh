@@ -26,7 +26,7 @@ cp $ac_dir/out/bin/avrocheck $ac_dir
 docker run -it --rm -v $ac_dir:/source tvbeat/avrocheck make clean
 
 out_file=avrocheck-${HEAD_SHA}.tar.gz
-tar cjf $out_file -C $tmpdir .
+tar cf $out_file -C $tmpdir .
 
 rm -rf $tmpdir
 
